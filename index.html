@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <script src="/js/index.js" type="module" defer></script>
+    <link rel="stylesheet" href="/css/global.css" />
+  </head>
+  <body>
+    <div id="root">
+      <table id="notes-table" class="regular-table">
+        <thead>
+          <tr>
+            <th>
+              <!-- categoty icons column -->
+            </th>
+            <th>Name</th>
+            <th>Created</th>
+            <th>Category</th>
+            <th>Content</th>
+            <th>
+              <!-- edit column -->
+            </th>
+            <th>
+              <button
+                id="head-archive-button"
+                class="to-archive-button white"
+              ></button>
+            </th>
+            <th>
+              <!-- delete column -->
+            </th>
+          </tr>
+        </thead>
+        <tbody id="notes-table-body">
+          <!-- notes -->
+        </tbody>
+      </table>
+      <button id="new-note-button" class="regular-button">New note</button>
+      <button id="reset" class="regular-button">Reset</button>
+    </div>
+    <div id="note-form-background"></div>
+  </body>
+</html>
