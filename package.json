@@ -1,0 +1,18 @@
+{
+  "name": "knu-web-todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "python3 -m http.server 8080",
+    "test": "npx playwright test --project=chromium",
+    "test:ui": "npx playwright test --ui --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.4"
+  }
+}
